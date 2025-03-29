@@ -19,7 +19,7 @@ CLASSES_LIST = ["Aadhar", "Passport", "Licence", "Pancard"]
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 client = Groq(api_key=GROQ_API_KEY)
 
-pytesseract.pytesseract.tesseract_cmd = r"./Tesseract-OCR/tesseract.exe"  
+pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract" 
 
 
 
